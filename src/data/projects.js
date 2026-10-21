@@ -22,7 +22,7 @@ export const projects = [
     images: ['/projects/memoires.svg'],
     confidential: false,
     demoUrl: '',
-    repoUrl: 'https://github.com/GawarouKora',
+    repoUrl: 'https://github.com/KORAGawarou/portfolio',
   },
   {
     id: 'parapheurs',
@@ -47,7 +47,7 @@ export const projects = [
     images: ['/projects/parapheurs.svg'],
     confidential: false,
     demoUrl: '',
-    repoUrl: 'https://github.com/GawarouKora',
+    repoUrl: 'https://github.com/KORAGawarou/portfolio',
   },
   {
     id: 'archives',
@@ -72,7 +72,7 @@ export const projects = [
     images: ['/projects/archives.svg'],
     confidential: false,
     demoUrl: '',
-    repoUrl: 'https://github.com/GawarouKora',
+    repoUrl: 'https://github.com/KORAGawarou/portfolio',
   },
   {
     id: 'campusconnect',
@@ -96,6 +96,6 @@ export const projects = [
     images: ['/projects/campusconnect.svg'],
     confidential: false,
     demoUrl: '',
-    repoUrl: 'https://github.com/GawarouKora',
+    repoUrl: 'https://github.com/KORAGawarou/portfolio',
   },
 ]

@@ -76,7 +76,7 @@ export default function Contact() {
             >
               <div className="channel-left">
                 <Icon name="Github" size={18} />
-                <span>Profil GitHub (GawarouKora)</span>
+                <span>Profil GitHub (KORAGawarou)</span>
               </div>
               <Icon name="ExternalLink" size={16} className="muted" />
             </a>
