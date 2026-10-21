@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f24" />
+      <stop offset="100%" stop-color="#111836" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162044" />
+      <stop offset="100%" stop-color="#1c2957" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="badgeGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Window Frame -->
+  <rect x="20" y="20" width="760" height="410" rx="12" fill="#0d142d" stroke="#263563" stroke-width="1.5" filter="url(#shadow)" />
+  
+  <!-- Window Header -->
+  <rect x="20" y="20" width="760" height="42" rx="12" fill="#131d3d" />
+  <circle cx="44" cy="41" r="5" fill="#ef4444" />
+  <circle cx="62" cy="41" r="5" fill="#f59e0b" />
+  <circle cx="80" cy="41" r="5" fill="#10b981" />
+  
+  <text x="110" y="45" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Plateforme Mémoires &amp; Soutenances</text>
+  <rect x="480" y="31" width="180" height="20" rx="10" fill="#0b1126" stroke="#263563" stroke-width="1" />
+  <text x="500" y="45" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">🔍 Rechercher un étudiant, jury...</text>
+  <circle cx="740" cy="41" r="11" fill="url(#accentGrad)" />
+  <text x="736" y="45" fill="#fff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">KG</text>
+
+  <!-- Sidebar -->
+  <rect x="20" y="62" width="160" height="368" fill="#0b1126" stroke="#263563" stroke-width="1" />
+  <text x="40" y="95" fill="#64748b" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" letter-spacing="1">GESTION</text>
+  
+  <rect x="30" y="110" width="140" height="32" rx="8" fill="url(#accentGrad)" opacity="0.15" />
+  <text x="45" y="131" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12" font-weight="600">📊 Tableau de bord</text>
+  <text x="45" y="165" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">🎓 Mémoires (128)</text>
+  <text x="45" y="198" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">📅 Soutenances</text>
+  <text x="45" y="231" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">👥 Jurys &amp; Enseignants</text>
+  <text x="45" y="264" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">📝 Procès-Verbaux</text>
+  <text x="45" y="297" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">⚙️ Paramètres</text>
+
+  <!-- Main Content -->
+  <!-- Stat Cards -->
+  <g transform="translate(200, 80)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="170" height="68" rx="10" fill="url(#cardGrad)" stroke="#28396b" stroke-width="1" />
+    <text x="14" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Total Mémoires Déposés</text>
+    <text x="14" y="52" fill="#fff" font-family="system-ui, sans-serif" font-size="22" font-weight="bold">128</text>
+    <rect x="115" y="32" width="45" height="20" rx="10" fill="#10b981" opacity="0.2" />
+    <text x="122" y="46" fill="#34d399" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">+14%</text>
+
+    <!-- Card 2 -->
+    <rect x="185" y="0" width="170" height="68" rx="10" fill="url(#cardGrad)" stroke="#28396b" stroke-width="1" />
+    <text x="199" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Soutenances Programmées</text>
+    <text x="199" y="52" fill="#fff" font-family="system-ui, sans-serif" font-size="22" font-weight="bold">42</text>
+    <rect x="300" y="32" width="45" height="20" rx="10" fill="#3b82f6" opacity="0.2" />
+    <text x="308" y="46" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">L3 SIL</text>
+
+    <!-- Card 3 -->
+    <rect x="370" y="0" width="190" height="68" rx="10" fill="url(#cardGrad)" stroke="#28396b" stroke-width="1" />
+    <text x="384" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Taux de Validation Jurys</text>
+    <text x="384" y="52" fill="#34d399" font-family="system-ui, sans-serif" font-size="22" font-weight="bold">96.8 %</text>
+    <circle cx="535" cy="34" r="14" fill="#8b5cf6" opacity="0.2" />
+    <text x="528" y="39" fill="#c084fc" font-family="system-ui, sans-serif" font-size="12">✓</text>
+  </g>
+
+  <!-- Table Section -->
+  <g transform="translate(200, 165)">
+    <rect x="0" y="0" width="560" height="245" rx="10" fill="#111a3b" stroke="#263563" stroke-width="1" />
+    
+    <!-- Table Header -->
+    <rect x="0" y="0" width="560" height="34" rx="10" fill="#17224d" />
+    <text x="18" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ÉTUDIANT &amp; THÈME</text>
+    <text x="240" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">JURY AFFECTÉ</text>
+    <text x="380" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">DATE &amp; HEURE</text>
+    <text x="475" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">STATUT</text>
+
+    <!-- Row 1 -->
+    <line x1="0" y1="35" x2="560" y2="35" stroke="#22305c" stroke-width="1" />
+    <text x="18" y="58" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">KORA Gawarou</text>
+    <text x="18" y="73" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Gestion électronique des archives</text>
+    <text x="240" y="65" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Dr. SOSSOU / Dr. KPADONOU</text>
+    <text x="380" y="65" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">24 Oct, 09:30</text>
+    <rect x="475" y="52" width="70" height="20" rx="10" fill="#10b981" opacity="0.2" />
+    <text x="487" y="66" fill="#34d399" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">Confirmé</text>
+
+    <!-- Row 2 -->
+    <line x1="0" y1="85" x2="560" y2="85" stroke="#22305c" stroke-width="1" />
+    <text x="18" y="108" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">BIO Bio Orou</text>
+    <text x="18" y="123" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Automatisation des parapheurs univ</text>
+    <text x="240" y="115" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Pr. BIO / Dr. ALASSANE</text>
+    <text x="380" y="115" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">24 Oct, 11:00</text>
+    <rect x="475" y="102" width="70" height="20" rx="10" fill="#3b82f6" opacity="0.2" />
+    <text x="487" y="116" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">Planifié</text>
+
+    <!-- Row 3 -->
+    <line x1="0" y1="135" x2="560" y2="135" stroke="#22305c" stroke-width="1" />
+    <text x="18" y="158" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">TOSSOU Marc</text>
+    <text x="18" y="173" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Sécurisation des dossiers académiques</text>
+    <text x="240" y="165" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Dr. HOUNGBO / M. SEIDOU</text>
+    <text x="380" y="165" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">24 Oct, 14:00</text>
+    <rect x="475" y="152" width="70" height="20" rx="10" fill="#f59e0b" opacity="0.2" />
+    <text x="485" y="166" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">En attente</text>
+
+    <!-- Bottom summary banner inside table -->
+    <rect x="15" y="195" width="530" height="36" rx="8" fill="#182554" stroke="#28396b" stroke-width="1" />
+    <text x="30" y="217" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">⚡ Générateur Automatique :</text>
+    <text x="185" y="217" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Procès-verbaux &amp; grilles de notation prêtes pour impression</text>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#152147" />
+    </linearGradient>
+    <linearGradient id="stepActive" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#pBgGrad)" />
+
+  <!-- Window Frame -->
+  <rect x="20" y="20" width="760" height="410" rx="12" fill="#0d1733" stroke="#233566" stroke-width="1.5" filter="url(#shadow2)" />
+
+  <!-- Top bar -->
+  <rect x="20" y="20" width="760" height="46" rx="12" fill="#132047" />
+  <circle cx="44" cy="43" r="5" fill="#ef4444" />
+  <circle cx="62" cy="43" r="5" fill="#f59e0b" />
+  <circle cx="80" cy="43" r="5" fill="#10b981" />
+  <text x="110" y="47" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Université de Parakou — Suivi des Parapheurs Administratifs</text>
+  <rect x="630" y="32" width="120" height="22" rx="11" fill="#ef4444" opacity="0.2" />
+  <text x="645" y="47" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">● Circuit Sécurisé</text>
+
+  <!-- Dossier Header -->
+  <g transform="translate(45, 80)">
+    <rect x="0" y="0" width="710" height="74" rx="10" fill="#16244f" stroke="#2b3e77" stroke-width="1" />
+    <text x="20" y="28" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">PARAPHEUR EN COURS DE TRANSMISSION</text>
+    <text x="20" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Réf #PARAP-2026-089 — Relevés de Notes &amp; Attestations de Licence</text>
+    <rect x="580" y="25" width="105" height="26" rx="6" fill="#f59e0b" opacity="0.25" />
+    <text x="592" y="42" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">⚠️ PRIORITÉ HAUTE</text>
+  </g>
+
+  <!-- Stepper Workflow -->
+  <g transform="translate(45, 175)">
+    <rect x="0" y="0" width="710" height="135" rx="10" fill="#101a3d" stroke="#233566" stroke-width="1" />
+    <text x="25" y="30" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">CIRCUIT D'APPROBATION EN TEMPS RÉEL</text>
+
+    <!-- Step Lines -->
+    <line x1="75" y1="75" x2="635" y2="75" stroke="#223363" stroke-width="4" stroke-linecap="round" />
+    <line x1="75" y1="75" x2="450" y2="75" stroke="url(#stepActive)" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Step 1 -->
+    <circle cx="75" cy="75" r="16" fill="#10b981" />
+    <text x="70" y="80" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">✓</text>
+    <text x="40" y="106" fill="#fff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">1. Dépôt Initial</text>
+    <text x="45" y="120" fill="#64748b" font-family="system-ui, sans-serif" font-size="9">Secrétariat Dépt</text>
+
+    <!-- Step 2 -->
+    <circle cx="260" cy="75" r="16" fill="#10b981" />
+    <text x="255" y="80" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">✓</text>
+    <text x="220" y="106" fill="#fff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">2. Vérification Notes</text>
+    <text x="230" y="120" fill="#64748b" font-family="system-ui, sans-serif" font-size="9">Chef de Division</text>
+
+    <!-- Step 3 -->
+    <circle cx="450" cy="75" r="18" fill="url(#stepActive)" />
+    <circle cx="450" cy="75" r="23" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="3,3" />
+    <text x="444" y="80" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">✍</text>
+    <text x="410" y="106" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">3. Visa &amp; Signature</text>
+    <text x="420" y="120" fill="#93c5fd" font-family="system-ui, sans-serif" font-size="9">Direction / Doyen</text>
+
+    <!-- Step 4 -->
+    <circle cx="635" cy="75" r="16" fill="#1e294b" stroke="#334155" stroke-width="2" />
+    <text x="631" y="80" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">4</text>
+    <text x="595" y="106" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">4. Archivage &amp; Remise</text>
+    <text x="615" y="120" fill="#64748b" font-family="system-ui, sans-serif" font-size="9">Registre Final</text>
+  </g>
+
+  <!-- Details Cards Bottom -->
+  <g transform="translate(45, 325)">
+    <rect x="0" y="0" width="345" height="85" rx="10" fill="#141f44" stroke="#253566" stroke-width="1" />
+    <text x="18" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Dernière action enregistrée</text>
+    <text x="18" y="48" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Transmis au Doyen par M. BIO (Huissier)</text>
+    <text x="18" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Horodaté : Aujourd'hui à 10h42 &bull; Accusé reçu</text>
+
+    <rect x="365" y="0" width="345" height="85" rx="10" fill="#141f44" stroke="#253566" stroke-width="1" />
+    <text x="383" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Bénéfice mesuré</text>
+    <text x="383" y="48" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Zéro dossier égaré &bull; Délai moyen réduit de 65%</text>
+    <text x="383" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Traçabilité complète avec journalisation MySQL</text>
+  </g>
+</svg>

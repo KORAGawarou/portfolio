@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1324" />
+      <stop offset="100%" stop-color="#132240" />
+    </linearGradient>
+    <linearGradient id="folderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#aBgGrad)" />
+
+  <!-- Frame -->
+  <rect x="20" y="20" width="760" height="410" rx="12" fill="#0d182e" stroke="#24385e" stroke-width="1.5" filter="url(#shadow3)" />
+
+  <!-- Window Header -->
+  <rect x="20" y="20" width="760" height="46" rx="12" fill="#12213d" />
+  <circle cx="44" cy="43" r="5" fill="#ef4444" />
+  <circle cx="62" cy="43" r="5" fill="#f59e0b" />
+  <circle cx="80" cy="43" r="5" fill="#10b981" />
+  <text x="110" y="48" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Mairie de Péhunco — Gestion Électronique des Archives (GED)</text>
+  <rect x="620" y="32" width="135" height="22" rx="6" fill="#10b981" opacity="0.2" />
+  <text x="632" y="47" fill="#34d399" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">🔒 Serveur Local Sécurisé</text>
+
+  <!-- Search Bar Row -->
+  <g transform="translate(45, 80)">
+    <rect x="0" y="0" width="710" height="48" rx="8" fill="#152747" stroke="#2b4473" stroke-width="1" />
+    <text x="20" y="29" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">🔍</text>
+    <text x="45" y="29" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">Recherche multicritère : arrêté municipal, délibération, acte d'état civil, année 2024...</text>
+    <rect x="610" y="10" width="85" height="28" rx="6" fill="url(#folderGrad)" />
+    <text x="628" y="28" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Filtrer</text>
+  </g>
+
+  <!-- Folders Grid -->
+  <g transform="translate(45, 145)">
+    <!-- Folder 1 -->
+    <rect x="0" y="0" width="165" height="85" rx="8" fill="#132342" stroke="#263d6b" stroke-width="1" />
+    <text x="18" y="32" font-size="20">📁</text>
+    <text x="18" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Actes d'État Civil</text>
+    <text x="18" y="72" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">2 410 fiches indexées</text>
+
+    <!-- Folder 2 -->
+    <rect x="180" y="0" width="165" height="85" rx="8" fill="#132342" stroke="#263d6b" stroke-width="1" />
+    <text x="198" y="32" font-size="20">📑</text>
+    <text x="198" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Arrêtés Municipaux</text>
+    <text x="198" y="72" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">840 documents</text>
+
+    <!-- Folder 3 -->
+    <rect x="360" y="0" width="165" height="85" rx="8" fill="#132342" stroke="#263d6b" stroke-width="1" />
+    <text x="378" y="32" font-size="20">🏛️</text>
+    <text x="378" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Conseil Communal</text>
+    <text x="378" y="72" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">185 délibérations</text>
+
+    <!-- Folder 4 -->
+    <rect x="540" y="0" width="170" height="85" rx="8" fill="#132342" stroke="#263d6b" stroke-width="1" />
+    <text x="558" y="32" font-size="20">💼</text>
+    <text x="558" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Marchés &amp; Finances</text>
+    <text x="558" y="72" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">320 dossiers clos</text>
+  </g>
+
+  <!-- Documents list -->
+  <g transform="translate(45, 245)">
+    <rect x="0" y="0" width="710" height="165" rx="8" fill="#101c36" stroke="#21355c" stroke-width="1" />
+    <rect x="0" y="0" width="710" height="30" rx="8" fill="#17294d" />
+    <text x="20" y="20" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">FICHIER NUMÉRISÉ</text>
+    <text x="320" y="20" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SERVICE ÉMETTEUR</text>
+    <text x="500" y="20" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">DATE</text>
+    <text x="615" y="20" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ACTION</text>
+
+    <!-- Doc 1 -->
+    <line x1="0" y1="31" x2="710" y2="31" stroke="#1d2e52" stroke-width="1" />
+    <text x="20" y="54" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">📄 arrete-municipal-2025-042-pehunco.pdf</text>
+    <text x="320" y="54" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Secrétariat Général</text>
+    <text x="500" y="54" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">14/08/2025</text>
+    <text x="615" y="54" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Consulter ↗</text>
+
+    <!-- Doc 2 -->
+    <line x1="0" y1="73" x2="710" y2="73" stroke="#1d2e52" stroke-width="1" />
+    <text x="20" y="96" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">📄 registre-naissances-arrondissement-centre.pdf</text>
+    <text x="320" y="96" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Service État Civil</text>
+    <text x="500" y="96" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">02/09/2025</text>
+    <text x="615" y="96" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Consulter ↗</text>
+
+    <!-- Doc 3 -->
+    <line x1="0" y1="115" x2="710" y2="115" stroke="#1d2e52" stroke-width="1" />
+    <text x="20" y="138" fill="#fff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">📄 pv-session-ordinaire-conseil-communal-t3.pdf</text>
+    <text x="320" y="138" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Cabinet du Maire</text>
+    <text x="500" y="138" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">28/09/2025</text>
+    <text x="615" y="138" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Consulter ↗</text>
+  </g>
+</svg>
