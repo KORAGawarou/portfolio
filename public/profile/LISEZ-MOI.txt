@@ -1,0 +1,8 @@
+Pour afficher votre photo de profil sur le portfolio :
+
+1. Choisissez une belle photo de vous (format carré de préférence, portrait professionnel)
+2. Renommez-la exactement : photo.jpg
+3. Copiez-la dans ce dossier : public/profile/photo.jpg
+4. Relancez le site (npm run dev) ou redéployez (git push)
+
+Votre photo apparaîtra automatiquement dans le cercle du Hero et dans le menu de navigation.
