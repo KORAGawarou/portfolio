@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Icon from './Icon.jsx'
 import Logo from './Logo.jsx'
-import { profile } from '../data/profile.js'
 
 const links = [
   ['a-propos', 'À propos'],
@@ -13,7 +12,7 @@ const links = [
   ['contact', 'Contact'],
 ]
 
-export default function Navbar() {
+export default function Navbar({ onOpenCvModal }) {
   const [open, setOpen] = useState(false)
   const [theme, setTheme] = useState(() => {
     try {
@@ -52,15 +51,16 @@ export default function Navbar() {
         </nav>
 
         <div className="nav-actions">
-          <a
+          <button
             className="nav-cv-btn"
-            href={profile.cvPath}
-            download="CV-KORA-Gawarou.pdf"
-            title="Télécharger le CV au format PDF"
+            type="button"
+            onClick={onOpenCvModal}
+            title="Demander mon CV au format PDF"
+            style={{ cursor: 'pointer' }}
           >
-            <Icon name="Download" size={15} />
-            <span>Mon CV</span>
-          </a>
+            <Icon name="FileDown" size={15} />
+            <span>Demander mon CV</span>
+          </button>
 
           <button
             className="icon-btn"

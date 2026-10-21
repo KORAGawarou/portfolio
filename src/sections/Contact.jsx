@@ -4,7 +4,7 @@ import Icon, { WhatsAppIcon } from '../components/Icon.jsx'
 import ContactForm from '../components/ContactForm.jsx'
 import { profile } from '../data/profile.js'
 
-export default function Contact() {
+export default function Contact({ onOpenCvModal }) {
   const [copied, setCopied] = useState(false)
 
   function copyEmail() {
@@ -101,15 +101,15 @@ export default function Contact() {
               <span>Localisation : {profile.location} (Disponible sur place & à distance)</span>
             </div>
 
-            <a
+            <button
+              type="button"
               className="btn"
-              href={profile.cvPath}
-              download="CV-KORA-Gawarou.pdf"
-              style={{ width: '100%' }}
+              onClick={onOpenCvModal}
+              style={{ width: '100%', justifyContent: 'center' }}
             >
-              <Icon name="Download" size={16} />
-              <span>Télécharger mon CV (PDF)</span>
-            </a>
+              <Icon name="FileDown" size={16} />
+              <span>Demander mon CV complet (PDF)</span>
+            </button>
           </div>
         </div>
 

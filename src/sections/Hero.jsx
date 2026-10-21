@@ -1,7 +1,7 @@
 import Icon, { WhatsAppIcon } from '../components/Icon.jsx'
 import { profile } from '../data/profile.js'
 
-export default function Hero() {
+export default function Hero({ onOpenCvModal }) {
   return (
     <section id="accueil" className="hero" aria-labelledby="hero-name">
       <div className="hero-glow-1" aria-hidden="true" />
@@ -27,14 +27,15 @@ export default function Hero() {
                 <span>Explorer mes projets</span>
               </a>
 
-              <a
+              <button
+                type="button"
                 className="btn"
-                href={profile.cvPath}
-                download="CV-KORA-Gawarou.pdf"
+                onClick={onOpenCvModal}
+                title="Demander mon CV complet"
               >
-                <Icon name="Download" size={18} />
-                <span>Télécharger mon CV (PDF)</span>
-              </a>
+                <Icon name="FileDown" size={18} />
+                <span>Demander mon CV</span>
+              </button>
 
               <a
                 className="btn whatsapp"

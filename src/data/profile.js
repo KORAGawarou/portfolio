@@ -13,6 +13,7 @@ export const profile = {
   email: 'korasekegawal@gmail.com',
   emailHref: 'mailto:korasekegawal@gmail.com',
   whatsapp: 'https://wa.me/2290141725838?text=Bonjour%20KORA%20Gawarou%2C%20j%27ai%20consult%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20%C3%A9changer%20avec%20vous.',
+  whatsappCvRequest: 'https://wa.me/2290141725838?text=Bonjour%20KORA%20Gawarou%2C%20je%20suis%20recruteur%20%2F%20responsable%20d%27entreprise%20et%20je%20souhaiterais%20recevoir%20votre%20CV%20complet%20au%20format%20PDF.',
   facebook: 'https://www.facebook.com/kora.seke.gawal',
   github: 'https://github.com/KORAGawarou',
   cvPath: '/cv/CV-KORA-Gawarou.pdf',

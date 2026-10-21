@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 import ScrollTop from './components/ScrollTop.jsx'
+import CvRequestModal from './components/CvRequestModal.jsx'
 import Hero from './sections/Hero.jsx'
 import About from './sections/About.jsx'
 import Skills from './sections/Skills.jsx'
@@ -11,21 +13,26 @@ import Contact from './sections/Contact.jsx'
 import { profile } from './data/profile.js'
 
 export default function App() {
+  const [cvModalOpen, setCvModalOpen] = useState(false)
+
+  const openCv = () => setCvModalOpen(true)
+  const closeCv = () => setCvModalOpen(false)
+
   return (
     <>
       <a className="skip" href="#a-propos">
         Aller directement au contenu principal
       </a>
-      <Navbar />
+      <Navbar onOpenCvModal={openCv} />
       <main id="contenu">
-        <Hero />
+        <Hero onOpenCvModal={openCv} />
         <About />
         <Skills />
         <Projects />
         <Experience />
         <Education />
         <Languages />
-        <Contact />
+        <Contact onOpenCvModal={openCv} />
       </main>
       <footer className="footer">
         <div className="wrap">
@@ -40,6 +47,7 @@ export default function App() {
         </div>
       </footer>
       <ScrollTop />
+      <CvRequestModal isOpen={cvModalOpen} onClose={closeCv} />
     </>
   )
 }
