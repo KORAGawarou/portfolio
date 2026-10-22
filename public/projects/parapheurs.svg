@@ -23,7 +23,7 @@
   <circle cx="44" cy="43" r="5" fill="#ef4444" />
   <circle cx="62" cy="43" r="5" fill="#f59e0b" />
   <circle cx="80" cy="43" r="5" fill="#10b981" />
-  <text x="110" y="47" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Université de Parakou — Suivi des Parapheurs Administratifs</text>
+  <text x="110" y="47" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">ISGG — Suivi des Parapheurs Administratifs</text>
   <rect x="630" y="32" width="120" height="22" rx="11" fill="#ef4444" opacity="0.2" />
   <text x="645" y="47" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">● Circuit Sécurisé</text>
 

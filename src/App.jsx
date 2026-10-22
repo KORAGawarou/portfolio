@@ -41,7 +41,7 @@ export default function App() {
               © {new Date().getFullYear()} <strong>{profile.name}</strong> • Tous droits réservés.
             </div>
             <div style={{ color: 'var(--muted)', fontSize: '0.88rem' }}>
-              Développé avec <strong>React</strong> & <strong>Vite</strong> • Parakou, Bénin
+              Développé avec <strong>React</strong> & <strong>Vite</strong> • Bénin
             </div>
           </div>
         </div>

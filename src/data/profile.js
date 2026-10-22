@@ -3,11 +3,11 @@ export const profile = {
   name: 'KORA Gawarou',
   initials: 'KG',
   title: 'Développeur Full-Stack & Concepteur de Solutions Logicielles',
-  subtitle: 'Étudiant en fin de cycle de Licence en Systèmes Informatiques et Logiciels (SIL) / GI3',
+  subtitle: 'Étudiant en fin de cycle de Licence en Systèmes Informatiques et Logiciels (SIL) / GI3 • ISGG',
   tagline:
     "Je conçois et développe des applications web performantes, ergonomiques et robustes pour digitaliser les processus administratifs, automatiser la gestion et résoudre des besoins concrets sur le terrain.",
   status: 'Disponible pour stage professionnel & opportunités',
-  location: 'Parakou, Bénin',
+  location: 'Bénin',
   phone: '+229 01 41 72 58 38',
   phoneHref: 'tel:+2290141725838',
   email: 'korasekegawal@gmail.com',
@@ -16,7 +16,6 @@ export const profile = {
   whatsappCvRequest: 'https://wa.me/2290141725838?text=Bonjour%20KORA%20Gawarou%2C%20je%20suis%20recruteur%20%2F%20responsable%20d%27entreprise%20et%20je%20souhaiterais%20recevoir%20votre%20CV%20complet%20au%20format%20PDF.',
   facebook: 'https://www.facebook.com/kora.seke.gawal',
   github: 'https://github.com/KORAGawarou',
-  cvPath: '/cv/CV-KORA-Gawarou.pdf',
   stats: [
     { label: 'Projets Majeurs', value: '4+' },
     { label: 'Mois de Stage Validé', value: '2' },
@@ -24,9 +23,9 @@ export const profile = {
     { label: 'Autonomie & Rigueur', value: '100%' },
   ],
   about: [
-    "Étudiant en fin de formation en Systèmes Informatiques et Logiciels (SIL) à l'Université de Parakou, je combine solide rigueur méthodologique, maîtrise de la modélisation formelle des données (Merise) et développement web moderne Full-Stack.",
+    "Étudiant en fin de formation en Systèmes Informatiques et Logiciels (SIL) à l'Institut Supérieur de Génie Civil et de Gestion (ISGG), je combine solide rigueur méthodologique, maîtrise de la modélisation formelle des données (Merise) et développement web moderne Full-Stack.",
     "Mon parcours s'appuie sur une expérience de terrain probante lors d'un stage de deux mois au sein des services administratifs de la Mairie de Péhunco, où j'ai conçu et mis en production une application de gestion électronique des archives communales (GED) répondant aux besoins quotidiens des agents.",
-    "Passionné par l'architecture logicielle et le travail autonome, j'ai notamment mené seul le développement de la plateforme universitaire de suivi et gestion des mémoires et soutenances de licence, depuis l'analyse des besoins et la conception MCD/MLD jusqu'à la réalisation du frontend réactif et du backend.",
+    "Passionné par l'architecture logicielle et le travail autonome, j'ai notamment mené seul le développement de la plateforme de suivi et gestion des mémoires et soutenances de licence, depuis l'analyse des besoins et la conception MCD/MLD jusqu'à la réalisation du frontend réactif et du backend.",
   ],
   experience: {
     title: 'Stage professionnel – Développeur d\'Applications & GED',
@@ -49,11 +48,11 @@ export const profile = {
   education: {
     title: 'Licence Professionnelle en Systèmes Informatiques et Logiciels (SIL) / GI3',
     status: 'En fin de formation (Promotion 2023 – 2026)',
-    institution: 'Université de Parakou (Institut Universitaire de Technologie – IUT)',
+    institution: 'Institut Supérieur de Génie Civil et de Gestion (ISGG)',
     degree: 'Licence Professionnelle en Génie Informatique (SIL)',
     startYear: '2023',
     endYear: '2026',
-    location: 'Parakou, Bénin',
+    location: 'Bénin',
     description:
       "Programme d'excellence couvrant le génie logiciel, la modélisation des systèmes d'information (Merise/UML), les bases de données relationnelles (MySQL, PostgreSQL, Oracle), le développement web et mobile (React, PHP, Java), ainsi que l'administration système et les réseaux.",
     highlights: [

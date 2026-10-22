@@ -30,7 +30,7 @@ export const projects = [
     category: 'Gestion Administrative',
     featured: false,
     summary:
-      "Plateforme web de traçabilité en temps réel conçue pour suivre la circulation des parapheurs et dossiers administratifs au sein d'un département de l'Université de Parakou.",
+      "Plateforme web de traçabilité en temps réel conçue pour suivre la circulation des parapheurs et dossiers administratifs au sein de l'Institut Supérieur de Génie Civil et de Gestion (ISGG).",
     need: "Garantir la traçabilité continue des documents officiels, éliminer les pertes de courriers et réduire les délais de signature entre bureaux.",
     problem:
       "L'absence d'historique de transmission créait des goulets d'étranglement administratifs et des difficultés à localiser les dossiers urgents lors des circuits de visa.",
