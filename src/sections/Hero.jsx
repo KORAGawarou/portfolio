@@ -25,10 +25,6 @@ function ProfilePhoto() {
           <span>Votre photo<br />de profil</span>
         </div>
       </div>
-      <p className="profile-photo-hint muted">
-        Copiez votre photo dans<br />
-        <code style={{ fontSize: '0.72rem', color: 'var(--blue)' }}>public/profile/photo.jpg</code>
-      </p>
     </div>
   )
 }
